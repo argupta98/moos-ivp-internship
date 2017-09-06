@@ -30,8 +30,14 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/lib_behaviors-test/cmake_install.cmake")
+  include("/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/pPrimeFactor/cmake_install.cmake")
+  include("/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/pPrimeFactorTester/cmake_install.cmake")
   include("/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/pGenPath/cmake_install.cmake")
   include("/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/pPointAssign/cmake_install.cmake")
+  include("/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/pOdometry/cmake_install.cmake")
+  include("/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/uFldHazardMgrX/cmake_install.cmake")
+  include("/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/uFldHazardMgrY/cmake_install.cmake")
+  include("/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/pHazardPath/cmake_install.cmake")
 
 endif()
 

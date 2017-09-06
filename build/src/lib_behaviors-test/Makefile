@@ -125,6 +125,138 @@ BHV_CollabEstimate/fast:
 	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_CollabEstimate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_CollabEstimate.dir/build
 .PHONY : BHV_CollabEstimate/fast
 
+# Convenience name for target.
+src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/rule:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/rule
+.PHONY : src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/rule
+
+# Convenience name for target.
+BHV_SimpleWaypoint: src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/rule
+
+.PHONY : BHV_SimpleWaypoint
+
+# fast build rule for target.
+BHV_SimpleWaypoint/fast:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build
+.PHONY : BHV_SimpleWaypoint/fast
+
+# Convenience name for target.
+src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/rule:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/rule
+.PHONY : src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/rule
+
+# Convenience name for target.
+BHV_FrontOscillate: src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/rule
+
+.PHONY : BHV_FrontOscillate
+
+# fast build rule for target.
+BHV_FrontOscillate/fast:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/build
+.PHONY : BHV_FrontOscillate/fast
+
+# Convenience name for target.
+src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/rule:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/rule
+.PHONY : src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/rule
+
+# Convenience name for target.
+BHV_Cover: src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/rule
+
+.PHONY : BHV_Cover
+
+# fast build rule for target.
+BHV_Cover/fast:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/build
+.PHONY : BHV_Cover/fast
+
+# Convenience name for target.
+src/lib_behaviors-test/CMakeFiles/BHV_FrontEstimate.dir/rule:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib_behaviors-test/CMakeFiles/BHV_FrontEstimate.dir/rule
+.PHONY : src/lib_behaviors-test/CMakeFiles/BHV_FrontEstimate.dir/rule
+
+# Convenience name for target.
+BHV_FrontEstimate: src/lib_behaviors-test/CMakeFiles/BHV_FrontEstimate.dir/rule
+
+.PHONY : BHV_FrontEstimate
+
+# fast build rule for target.
+BHV_FrontEstimate/fast:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_FrontEstimate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_FrontEstimate.dir/build
+.PHONY : BHV_FrontEstimate/fast
+
+# Convenience name for target.
+src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/rule:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/rule
+.PHONY : src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/rule
+
+# Convenience name for target.
+BHV_Defense_Multi: src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/rule
+
+.PHONY : BHV_Defense_Multi
+
+# fast build rule for target.
+BHV_Defense_Multi/fast:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/build
+.PHONY : BHV_Defense_Multi/fast
+
+# Convenience name for target.
+src/lib_behaviors-test/CMakeFiles/BHV_ZigLeg.dir/rule:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib_behaviors-test/CMakeFiles/BHV_ZigLeg.dir/rule
+.PHONY : src/lib_behaviors-test/CMakeFiles/BHV_ZigLeg.dir/rule
+
+# Convenience name for target.
+BHV_ZigLeg: src/lib_behaviors-test/CMakeFiles/BHV_ZigLeg.dir/rule
+
+.PHONY : BHV_ZigLeg
+
+# fast build rule for target.
+BHV_ZigLeg/fast:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_ZigLeg.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_ZigLeg.dir/build
+.PHONY : BHV_ZigLeg/fast
+
+# Convenience name for target.
+src/lib_behaviors-test/CMakeFiles/BHV_Pulse.dir/rule:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f CMakeFiles/Makefile2 src/lib_behaviors-test/CMakeFiles/BHV_Pulse.dir/rule
+.PHONY : src/lib_behaviors-test/CMakeFiles/BHV_Pulse.dir/rule
+
+# Convenience name for target.
+BHV_Pulse: src/lib_behaviors-test/CMakeFiles/BHV_Pulse.dir/rule
+
+.PHONY : BHV_Pulse
+
+# fast build rule for target.
+BHV_Pulse/fast:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Pulse.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Pulse.dir/build
+.PHONY : BHV_Pulse/fast
+
+AOF_SimpleWaypoint.o: AOF_SimpleWaypoint.cpp.o
+
+.PHONY : AOF_SimpleWaypoint.o
+
+# target to build an object file
+AOF_SimpleWaypoint.cpp.o:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.o
+.PHONY : AOF_SimpleWaypoint.cpp.o
+
+AOF_SimpleWaypoint.i: AOF_SimpleWaypoint.cpp.i
+
+.PHONY : AOF_SimpleWaypoint.i
+
+# target to preprocess a source file
+AOF_SimpleWaypoint.cpp.i:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.i
+.PHONY : AOF_SimpleWaypoint.cpp.i
+
+AOF_SimpleWaypoint.s: AOF_SimpleWaypoint.cpp.s
+
+.PHONY : AOF_SimpleWaypoint.s
+
+# target to generate assembly for a file
+AOF_SimpleWaypoint.cpp.s:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/AOF_SimpleWaypoint.cpp.s
+.PHONY : AOF_SimpleWaypoint.cpp.s
+
 BHV_CollabEstimate.o: BHV_CollabEstimate.cpp.o
 
 .PHONY : BHV_CollabEstimate.o
@@ -152,6 +284,228 @@ BHV_CollabEstimate.cpp.s:
 	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_CollabEstimate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_CollabEstimate.dir/BHV_CollabEstimate.cpp.s
 .PHONY : BHV_CollabEstimate.cpp.s
 
+BHV_Cover.o: BHV_Cover.cpp.o
+
+.PHONY : BHV_Cover.o
+
+# target to build an object file
+BHV_Cover.cpp.o:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/BHV_Cover.cpp.o
+.PHONY : BHV_Cover.cpp.o
+
+BHV_Cover.i: BHV_Cover.cpp.i
+
+.PHONY : BHV_Cover.i
+
+# target to preprocess a source file
+BHV_Cover.cpp.i:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/BHV_Cover.cpp.i
+.PHONY : BHV_Cover.cpp.i
+
+BHV_Cover.s: BHV_Cover.cpp.s
+
+.PHONY : BHV_Cover.s
+
+# target to generate assembly for a file
+BHV_Cover.cpp.s:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/BHV_Cover.cpp.s
+.PHONY : BHV_Cover.cpp.s
+
+BHV_Defense_Multi.o: BHV_Defense_Multi.cpp.o
+
+.PHONY : BHV_Defense_Multi.o
+
+# target to build an object file
+BHV_Defense_Multi.cpp.o:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/BHV_Defense_Multi.cpp.o
+.PHONY : BHV_Defense_Multi.cpp.o
+
+BHV_Defense_Multi.i: BHV_Defense_Multi.cpp.i
+
+.PHONY : BHV_Defense_Multi.i
+
+# target to preprocess a source file
+BHV_Defense_Multi.cpp.i:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/BHV_Defense_Multi.cpp.i
+.PHONY : BHV_Defense_Multi.cpp.i
+
+BHV_Defense_Multi.s: BHV_Defense_Multi.cpp.s
+
+.PHONY : BHV_Defense_Multi.s
+
+# target to generate assembly for a file
+BHV_Defense_Multi.cpp.s:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/BHV_Defense_Multi.cpp.s
+.PHONY : BHV_Defense_Multi.cpp.s
+
+BHV_FrontEstimate.o: BHV_FrontEstimate.cpp.o
+
+.PHONY : BHV_FrontEstimate.o
+
+# target to build an object file
+BHV_FrontEstimate.cpp.o:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_FrontEstimate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_FrontEstimate.dir/BHV_FrontEstimate.cpp.o
+.PHONY : BHV_FrontEstimate.cpp.o
+
+BHV_FrontEstimate.i: BHV_FrontEstimate.cpp.i
+
+.PHONY : BHV_FrontEstimate.i
+
+# target to preprocess a source file
+BHV_FrontEstimate.cpp.i:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_FrontEstimate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_FrontEstimate.dir/BHV_FrontEstimate.cpp.i
+.PHONY : BHV_FrontEstimate.cpp.i
+
+BHV_FrontEstimate.s: BHV_FrontEstimate.cpp.s
+
+.PHONY : BHV_FrontEstimate.s
+
+# target to generate assembly for a file
+BHV_FrontEstimate.cpp.s:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_FrontEstimate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_FrontEstimate.dir/BHV_FrontEstimate.cpp.s
+.PHONY : BHV_FrontEstimate.cpp.s
+
+BHV_FrontOscillate.o: BHV_FrontOscillate.cpp.o
+
+.PHONY : BHV_FrontOscillate.o
+
+# target to build an object file
+BHV_FrontOscillate.cpp.o:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/BHV_FrontOscillate.cpp.o
+.PHONY : BHV_FrontOscillate.cpp.o
+
+BHV_FrontOscillate.i: BHV_FrontOscillate.cpp.i
+
+.PHONY : BHV_FrontOscillate.i
+
+# target to preprocess a source file
+BHV_FrontOscillate.cpp.i:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/BHV_FrontOscillate.cpp.i
+.PHONY : BHV_FrontOscillate.cpp.i
+
+BHV_FrontOscillate.s: BHV_FrontOscillate.cpp.s
+
+.PHONY : BHV_FrontOscillate.s
+
+# target to generate assembly for a file
+BHV_FrontOscillate.cpp.s:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/BHV_FrontOscillate.cpp.s
+.PHONY : BHV_FrontOscillate.cpp.s
+
+BHV_Pulse.o: BHV_Pulse.cpp.o
+
+.PHONY : BHV_Pulse.o
+
+# target to build an object file
+BHV_Pulse.cpp.o:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Pulse.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Pulse.dir/BHV_Pulse.cpp.o
+.PHONY : BHV_Pulse.cpp.o
+
+BHV_Pulse.i: BHV_Pulse.cpp.i
+
+.PHONY : BHV_Pulse.i
+
+# target to preprocess a source file
+BHV_Pulse.cpp.i:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Pulse.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Pulse.dir/BHV_Pulse.cpp.i
+.PHONY : BHV_Pulse.cpp.i
+
+BHV_Pulse.s: BHV_Pulse.cpp.s
+
+.PHONY : BHV_Pulse.s
+
+# target to generate assembly for a file
+BHV_Pulse.cpp.s:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Pulse.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Pulse.dir/BHV_Pulse.cpp.s
+.PHONY : BHV_Pulse.cpp.s
+
+BHV_SimpleWaypoint.o: BHV_SimpleWaypoint.cpp.o
+
+.PHONY : BHV_SimpleWaypoint.o
+
+# target to build an object file
+BHV_SimpleWaypoint.cpp.o:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.o
+.PHONY : BHV_SimpleWaypoint.cpp.o
+
+BHV_SimpleWaypoint.i: BHV_SimpleWaypoint.cpp.i
+
+.PHONY : BHV_SimpleWaypoint.i
+
+# target to preprocess a source file
+BHV_SimpleWaypoint.cpp.i:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.i
+.PHONY : BHV_SimpleWaypoint.cpp.i
+
+BHV_SimpleWaypoint.s: BHV_SimpleWaypoint.cpp.s
+
+.PHONY : BHV_SimpleWaypoint.s
+
+# target to generate assembly for a file
+BHV_SimpleWaypoint.cpp.s:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_SimpleWaypoint.dir/BHV_SimpleWaypoint.cpp.s
+.PHONY : BHV_SimpleWaypoint.cpp.s
+
+BHV_ZigLeg.o: BHV_ZigLeg.cpp.o
+
+.PHONY : BHV_ZigLeg.o
+
+# target to build an object file
+BHV_ZigLeg.cpp.o:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_ZigLeg.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_ZigLeg.dir/BHV_ZigLeg.cpp.o
+.PHONY : BHV_ZigLeg.cpp.o
+
+BHV_ZigLeg.i: BHV_ZigLeg.cpp.i
+
+.PHONY : BHV_ZigLeg.i
+
+# target to preprocess a source file
+BHV_ZigLeg.cpp.i:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_ZigLeg.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_ZigLeg.dir/BHV_ZigLeg.cpp.i
+.PHONY : BHV_ZigLeg.cpp.i
+
+BHV_ZigLeg.s: BHV_ZigLeg.cpp.s
+
+.PHONY : BHV_ZigLeg.s
+
+# target to generate assembly for a file
+BHV_ZigLeg.cpp.s:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_ZigLeg.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_ZigLeg.dir/BHV_ZigLeg.cpp.s
+.PHONY : BHV_ZigLeg.cpp.s
+
+NodeReportDefense.o: NodeReportDefense.cpp.o
+
+.PHONY : NodeReportDefense.o
+
+# target to build an object file
+NodeReportDefense.cpp.o:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/NodeReportDefense.cpp.o
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/NodeReportDefense.cpp.o
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/NodeReportDefense.cpp.o
+.PHONY : NodeReportDefense.cpp.o
+
+NodeReportDefense.i: NodeReportDefense.cpp.i
+
+.PHONY : NodeReportDefense.i
+
+# target to preprocess a source file
+NodeReportDefense.cpp.i:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/NodeReportDefense.cpp.i
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/NodeReportDefense.cpp.i
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/NodeReportDefense.cpp.i
+.PHONY : NodeReportDefense.cpp.i
+
+NodeReportDefense.s: NodeReportDefense.cpp.s
+
+.PHONY : NodeReportDefense.s
+
+# target to generate assembly for a file
+NodeReportDefense.cpp.s:
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_FrontOscillate.dir/NodeReportDefense.cpp.s
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Cover.dir/NodeReportDefense.cpp.s
+	cd /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build && $(MAKE) -f src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/build.make src/lib_behaviors-test/CMakeFiles/BHV_Defense_Multi.dir/NodeReportDefense.cpp.s
+.PHONY : NodeReportDefense.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,9 +515,43 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... BHV_CollabEstimate"
+	@echo "... BHV_SimpleWaypoint"
+	@echo "... BHV_FrontOscillate"
+	@echo "... BHV_Cover"
+	@echo "... BHV_FrontEstimate"
+	@echo "... BHV_Defense_Multi"
+	@echo "... BHV_ZigLeg"
+	@echo "... BHV_Pulse"
+	@echo "... AOF_SimpleWaypoint.o"
+	@echo "... AOF_SimpleWaypoint.i"
+	@echo "... AOF_SimpleWaypoint.s"
 	@echo "... BHV_CollabEstimate.o"
 	@echo "... BHV_CollabEstimate.i"
 	@echo "... BHV_CollabEstimate.s"
+	@echo "... BHV_Cover.o"
+	@echo "... BHV_Cover.i"
+	@echo "... BHV_Cover.s"
+	@echo "... BHV_Defense_Multi.o"
+	@echo "... BHV_Defense_Multi.i"
+	@echo "... BHV_Defense_Multi.s"
+	@echo "... BHV_FrontEstimate.o"
+	@echo "... BHV_FrontEstimate.i"
+	@echo "... BHV_FrontEstimate.s"
+	@echo "... BHV_FrontOscillate.o"
+	@echo "... BHV_FrontOscillate.i"
+	@echo "... BHV_FrontOscillate.s"
+	@echo "... BHV_Pulse.o"
+	@echo "... BHV_Pulse.i"
+	@echo "... BHV_Pulse.s"
+	@echo "... BHV_SimpleWaypoint.o"
+	@echo "... BHV_SimpleWaypoint.i"
+	@echo "... BHV_SimpleWaypoint.s"
+	@echo "... BHV_ZigLeg.o"
+	@echo "... BHV_ZigLeg.i"
+	@echo "... BHV_ZigLeg.s"
+	@echo "... NodeReportDefense.o"
+	@echo "... NodeReportDefense.i"
+	@echo "... NodeReportDefense.s"
 .PHONY : help
 
 
