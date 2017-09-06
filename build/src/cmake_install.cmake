@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Gupta/moos-ivp-argupta/src
+# Install script for directory: /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,9 +29,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/Gupta/moos-ivp-argupta/build/src/lib_behaviors-test/cmake_install.cmake")
-  include("/Users/Gupta/moos-ivp-argupta/build/src/pGenPath/cmake_install.cmake")
-  include("/Users/Gupta/moos-ivp-argupta/build/src/pPointAssign/cmake_install.cmake")
+  include("/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/lib_behaviors-test/cmake_install.cmake")
+  include("/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/pGenPath/cmake_install.cmake")
+  include("/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/pPointAssign/cmake_install.cmake")
 
 endif()
 

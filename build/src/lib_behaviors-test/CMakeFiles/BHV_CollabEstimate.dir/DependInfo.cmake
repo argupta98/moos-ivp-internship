@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Gupta/moos-ivp-argupta/src/lib_behaviors-test/BHV_CollabEstimate.cpp" "/Users/Gupta/moos-ivp-argupta/build/src/lib_behaviors-test/CMakeFiles/BHV_CollabEstimate.dir/BHV_CollabEstimate.cpp.o"
+  "/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/src/lib_behaviors-test/BHV_CollabEstimate.cpp" "/Users/Gupta/moos-ivp-argupta/moos-ivp-internship/build/src/lib_behaviors-test/CMakeFiles/BHV_CollabEstimate.dir/BHV_CollabEstimate.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -20,6 +20,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/Users/Gupta/moos-ivp/MOOS/MOOSCore/Core/libMOOS/Thirdparty/AppCasting/include"
   "/Users/Gupta/moos-ivp/ivp/src/lib_apputil"
   "/Users/Gupta/moos-ivp/ivp/src/lib_behaviors"
+  "/Users/Gupta/moos-ivp/ivp/src/lib_behaviors-colregs"
   "/Users/Gupta/moos-ivp/ivp/src/lib_behaviors-marine"
   "/Users/Gupta/moos-ivp/ivp/src/lib_bhvutil"
   "/Users/Gupta/moos-ivp/ivp/src/lib_contacts"

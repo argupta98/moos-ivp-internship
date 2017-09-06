@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Gupta/moos-ivp-argupta/src/pPointAssign
+# Install script for directory: /Users/Gupta/moos-ivp-argupta/moos-ivp-internship/src/pPointAssign
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

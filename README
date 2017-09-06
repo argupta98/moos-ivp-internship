@@ -1,16 +1,20 @@
 ##############################################################################
-# FILE:        moos-ivp-extend/README
-# DATE:        2014/01/02
-# DESCRIPTION: Contains important information regarding the moos-ivp-extend
+# FILE:        moos-ivp-internship/README
+# DATE:        2017/08/06
+# DESCRIPTION: Contains important information regarding the moos-ivp-internship
 #              repository.
 ##############################################################################
 
 #=============================================================================
 # Introduction
 #=============================================================================
-The moos-ivp-extend repository contains examples for extending the MOOS-IvP
-Autonomy system. This includes a MOOS application and an IvP behavior.
-
+The moos-ivp-internship repository is an extension of the moos-ivp-extend
+repository,which contains examples for extending the MOOS-IvP Autonomy system.
+This tree originally included a MOOS application and an IvP behavior. The
+moos-ivp-internship tree was written by Arjun Gupta on top of the moos-ivp-extend
+tree. The vast majority of code written in this repository is the work of Arjun
+Gupta. The main folders with original code are the missions folder and the
+src folder. 
 
 #=============================================================================
 # Directory Structure
