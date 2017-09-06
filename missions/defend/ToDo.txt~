@@ -1,0 +1,13 @@
+1) Add random walk mokai (fix pPointAssign)
+
+3) Make it work with MOOSTimeWarp
+
+
+
+
+
+
+
+
+
+4) Process the data. Place the X,Y locations into bins automatically to descritize the location data. Decide how long to make the trails. Place the data in CSV format and label it with the behavior that is being exhibited. 

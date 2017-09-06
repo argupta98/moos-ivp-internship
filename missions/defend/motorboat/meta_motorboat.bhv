@@ -1,0 +1,13 @@
+initialize DEPLOY     = false
+initialize RETURN     = false
+initialize TAGGED     = false
+
+set MODE     = ACTIVE {
+  DEPLOY     = true
+} INACTIVE
+
+set MODE     = RETURNING {
+  MODE       = ACTIVE
+  RETURN     = true
+} INGAME
+

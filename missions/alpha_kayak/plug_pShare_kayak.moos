@@ -1,0 +1,19 @@
+//---------------------------------------------------------
+// settings for the HoverGroup Kayak front seat
+ProcessConfig = pShare
+{
+  AppTick    = 2
+  CommsTick  = 2
+
+//  output = DESIRED_SPEED->192.168.1.103:9301
+//  output = DESIRED_HEADING->192.168.1.103:9301
+//   output = DESIRED_THRUST->192.168.1.103:9301
+
+  output = DESIRED_SPEED->$(FRONT_SEAT_IP):$(FRONT_SEAT_SHARE)
+  output = DESIRED_HEADING->$(FRONT_SEAT_IP):$(FRONT_SEAT_SHARE)
+  output = DESIRED_THRUST->$(FRONT_SEAT_IP):$(FRONT_SEAT_SHARE)
+
+  input = route =  localhost:$(SHARE_LISTEN)
+
+//  input = route =  multicast_7
+}

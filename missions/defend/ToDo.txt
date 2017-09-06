@@ -1,0 +1,18 @@
+1)zone_one = pts={ 56,16 : -15,-17 : 17,-83 : 82,-56 }
+  zone_two = pts={ -15,-17 : -83,-49 : -53,-114 : 17,-83 }
+  x=56,   y=16, 
+  x=-83, y=-49, 
+  x=-53, y=-114, 
+  x=82,   y=-56, 
+
+3) Make it work with MOOSTimeWar
+
+
+
+
+
+
+
+
+
+4) Process the data. Place the X,Y locations into bins automatically to descritize the location data. Decide how long to make the trails. Place the data in CSV format and label it with the behavior that is being exhibited. 

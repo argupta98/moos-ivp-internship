@@ -1,0 +1,66 @@
+ServerHost= localHost
+ServerPort= 9000
+
+ProcessConfig= ANTLER
+{
+   MSBetweenLaunches=200
+
+   Run = MOOSDB			@NewConsole= false
+   Run = uTimerScript		     @NewConsole= false
+   Run = pPrimeFactor		     @NewConsole = true
+   Run = pPrimeFactorTester	    @NewConsole = false
+   Run = uXMS			    @NewConsole = true
+   Run = pLogger		    @NewConsole = false
+
+}
+
+ProcessConfig = uXMS
+{
+   AppTick = 4
+   CommsTick = 4
+
+   VAR=PRIME_RESULT
+   VAR=PRIME_RESULT_VALID
+   VAR=PRIME_STATUS
+
+}
+
+ProcessConfig = uTimerScript
+ {
+   AppTick   = 4
+   CommsTick = 4
+
+   paused     = false
+  // event      = var=NUM_VALUE, val="$(15)", time=0.25 //$(15)
+   event      = var=NUM_VALUE, val="$(9)", time=0.50
+  // event      = var=NUM_VALUE, val="$(12)", time=0.75
+   event      = var=NUM_VALUE, val="$(7)", time=1.00
+   event      = var=NUM_VALUE, val="$(5)", time=1.25
+   event      = var= NUM_VALUE, val="$(2)", time=1.50
+   //event      = var=PRIME_RESULT, val="orig=24,primes=2:2:2:3", time=1.25
+   reset_max  = nolimit
+   reset_time = all-posted
+ }
+
+ProcessConfig = pPrimeFactor
+{
+   AppTick = 4
+   CommsTick = 4
+}
+
+ProcessConfig = pPrimeFactorTester
+{
+   AppTick = 4
+   CommsTick=4
+}
+
+ProcessConfig = pLogger
+{
+
+   AsyncLog = true
+   WildCardLogging = true
+   WildCardOmitPattern = *_STATUS
+
+   Log = PRIME_STATUS @ 0
+
+}

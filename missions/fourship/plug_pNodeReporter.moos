@@ -1,0 +1,23 @@
+//--------------------------------------------------------
+// pNodeReporter Configuration Block (Created from Plugin)
+
+ProcessConfig = pNodeReporter
+{
+  AppTick     = 2
+  CommsTick   = 2
+  
+
+#ifdef VNAME charlie
+  VESSEL_TYPE = KAYAK
+  group = LEFT
+#elseifdef VNAME dana
+   VESSEL_TYPE = KAYAK
+   group = RIGHT
+#elseifdef VNAME alpha
+   VESSEL_TYPE= KAYAK
+   group = LEFT
+#elseifdef VNAME bravo
+   VESSEL_TYPE=KAYAK
+   group = RIGHT
+#endif
+}

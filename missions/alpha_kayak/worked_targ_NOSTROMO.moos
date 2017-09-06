@@ -1,0 +1,294 @@
+
+
+
+
+
+
+// DO NOT MODIFY - nostromo hardware configuration options
+
+ServerHost = 192.168.1.103
+ServerPort = 9200
+Community  = NOSTROMO
+
+// MIT Sailing Pavilion
+LatOrigin  =  42.358436        
+LongOrigin = -71.087448    
+
+  
+//------------------------------------------------------------
+Processconfig = ANTLER
+{
+  MSBetweenLaunches = 200
+   
+  Run = MOOSDB                 @ NewConsole = false
+  Run = pShare                 @ NewConsole = false
+  Run = pLogger                @ NewConsole = false
+ // Run = pProtoReporter         @ NewConsole = false
+  //Run = pNodeReporter		 @ NewConsole = false
+  Run = pMarinePID_Hover       @ NewConsole = false
+//  Run = pHelmIvP               @ NewConsole = false
+  Run = iRTKNAVI               @ NewConsole = false
+  Run = iGPS_Hover             @ NewConsole = false
+  Run = iOS5000_Hover          @ NewConsole = false
+  Run = pEchoVar               @ NewConsole = false
+  Run = iHoverKayak            @ NewConsole = false
+  //Run = iAcommsDriver          @ NewConsole = false
+  Run = pNavManager            @ NewConsole = false
+  Run = pResourceMon           @ NewConsole = false
+  
+}
+
+ProcessConfig = iKST
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 4
+
+    output_path = "/home/josh/kst_NOSTROMO.csv"
+
+    LOG = NAV_X
+    LOG = NAV_Y
+    LOG = NAV_HEADING
+    LOG = NAV_SPEED
+    LOG = DESIRED_HEADING
+    LOG = DESIRED_SPEED
+    LOG = ARDUINO_RUDDER
+    LOG = ARDUINO_THRUST
+    LOG = COMPASS_ROLL
+    LOG = COMPASS_PITCH
+    LOG = ALTIMETER_DEPTH
+}
+
+ProcessConfig = pShare
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 4
+
+//  original from Hovergroup to their server at .100  
+//    output = PROTO_REPORT_LOCAL->PROTO_REPORT:192.168.1.100:9001
+//    output = VIEW_RANGE_PULSE->192.168.1.100:9001
+//    output = ACKEDCOMMS_RETURN_ACK->192.168.1.100:9001
+  
+    output = NAV_X->192.168.1.242:9305
+    output = NAV_Y->192.168.1.242:9305
+    output = NAV_HEADING->192.168.1.242:9305
+    output = NAV_SPEED->192.168.1.242:9305
+//    output = PROTO_REPORT_LOCAL->PROTO_REPORT:192.168.1.155:9000
+//    output = VIEW_RANGE_PULSE->192.168.1.155:90010
+//    output = ACKEDCOMMS_RETURN_ACK->192.168.1.155:9000
+  
+    input = route=192.168.1.103:9301 
+}
+
+ProcessConfig = pLogger
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 10
+
+    File            = LOG_NOSTROMO
+    PATH            = /home/josh/logs/
+    AsyncLog        = true
+    FileTimeStamp   = true
+    WildCardLogging = true
+
+    WildCardOmitPattern = PLOGGER_STATUS, DB_VARSUMMARY
+}
+
+ProcessConfig = pProtoReporter
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 1
+  
+    PLATFORM_TYPE = KAYAK
+}
+
+ProcessConfig = pMarinePID_Hover
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 10
+
+    Verbose       = false
+    DEPTH_CONTROL = false
+    ACTIVE_START  = true
+    MAXRUDDER     = 45
+    MAXTHRUST     = 100
+
+    // SPEED_FACTOR
+    //    - A non-zero SPEED_FACTOR overrides use of SPEED_PID
+    //    - Will set DESIRED_THRUST = DESIRED_SPEED * SPEED_FACTOR
+    SPEED_FACTOR  = 30
+    // 25-30 for no modem
+    // 40 with modem
+
+    // Yaw PID controller
+    YAW_PID_KP             = 0.40
+    YAW_PID_KD             = 0.3
+    YAW_PID_KI             = 0.01
+    YAW_PID_INTEGRAL_LIMIT = 500
+    YAW_PID_TAU            = 1
+
+    // Speed PID controller
+    SPEED_PID_KP             = 0.0
+    SPEED_PID_KD             = 0.0
+    SPEED_PID_KI             = 4
+    SPEED_PID_INTEGRAL_LIMIT = 2.5
+    
+    SPEED_CONTROLLER = fit_pid
+    // factor, pid, fit_pid
+    
+    SPEED_SLOPE = 60.6
+    SPEED_OFFSET = -1.21
+    ANGLE_LIMIT = 25
+    TIME_DELAY = 5
+}
+
+ProcessConfig = pHelmIvP
+{
+    AppTick     = 2
+
+    ok_skew = any
+  
+    Behaviors = targ_NOSTROMO.bhv  
+    Verbose   = true
+    Domain    = course:0:359:360
+    Domain    = speed:0:3:61
+  
+    IVP_BEHAVIOR_DIR = /home/josh/hovergroup/ivp-extend/trunk/lib/
+    IVP_BEHAVIOR_DIR = /home/josh/hovergroup-extend/trunk/lib/
+    BHV_DIR_NOT_FOUND_OK = true
+}
+
+ProcessConfig = pEchoVar
+{
+    IterateMode = 1    // comms driven iterate and mail
+    AppTick     = 4    // iterate lower bound
+    MaxAppTick  = 0    // no limit
+
+    Echo = MOOS_MANUAL_OVERRIDE -> MOOS_MANUAL_OVERIDE
+}
+
+ProcessConfig = iOS5000_Hover
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 1
+
+    Port        = /dev/ttyUSB2
+    Speed       = 57600
+    PreRotation = -15            // -15 for Boston (magnetic declination)
+
+    FilterTimeConstant = 1
+}
+
+ProcessConfig = iRTKNAVI
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 1
+    
+    HOST=192.168.1.103
+    PORT=50001
+}
+
+ProcessConfig = iRemote
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 5
+
+    CustomKey = 1 : HELM_VERBOSE @ "verbose"
+    CustomKey = 2 : HELM_VERBOSE @ "terse"
+    CustomKey = 3 : HELM_VERBOSE @ "quiet"
+    CustomKey = 4 : DEPLOY @ "true"
+    CustomKey = 5 : DEPLOY @ "false"
+    CustomKey = 6 : RETURN @ "true"
+    CustomKey = 7 : RETURN @ "false"
+}
+
+ProcessConfig = iHoverKayak
+{
+    IterateMode = 1    // comms driven iterate and mail
+    AppTick     = 20   // iterate lower bound
+    MaxAppTick  = 0    // no limit
+   
+    INVERT_RUDDER = false
+    RUDDER_OFFSET = 0
+    PORT_NAME = /dev/ttyO1
+}
+
+ProcessConfig = iAcommsDriver
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 5
+
+    PortName = /dev/ttyUSB1
+    ID       = 3
+
+    PSK_minipackets   = false
+    enable_ranging    = true
+    show_range_pulses = true
+
+}
+
+ProcessConfig = iAltimeter
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 1
+  
+    PORT_NAME = /dev/ttyUSB0
+}
+
+ProcessConfig = iAltimeter_cruzPro
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 1
+  
+    PORT_NAME = /dev/ttyUSB0
+    BAUD_RATE = 4800
+}
+
+ProcessConfig = pNavManager
+{
+    IterateMode = 1    // comms driven iterate and mail
+    AppTick     = 4    // iterate lower bound
+    MaxAppTick  = 0    // no limit
+  
+    timeout = 5      // timeout before abandoning a nav source
+
+    source1 = rtk_fix
+    source2 = rtk_float
+    source3 = gps
+    source4 = rtk_single
+}
+
+ProcessConfig = iGPS_Hover
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 20
+  
+    //PORT_NAME = $(GPSPORT)
+    //BAUD_RATE = $(GPSBAUD)
+    
+    TCP_SERVER = localhost
+    TCP_PORT = 50000
+    
+    USE_TCP = true
+}
+
+ProcessConfig = pResourceMon
+{
+    IterateMode = 0 // regular iterate and mail
+    AppTick = 1
+}
+
+ProcessConfig = pAckedCommsVehicle
+{
+    IterateMode = 1    // comms driven iterate and mail
+    AppTick     = 1    // iterate lower bound
+    MaxAppTick  = 0    // no limit
+}
+
+ProcessConfig = pScheduledTransmit
+{
+    IterateMode = 0    // regular iterate and mail
+    AppTick     = 20
+   
+    period = 40
+    offset = 10
+}
